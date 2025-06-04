@@ -16,3 +16,9 @@ All notable changes to this project will be documented in this file.
 -   TypeScript typings included
 -   Subpath imports support (`afridho-utils/currency`, `afridho-utils/number`)
 ```
+
+## [1.1.0] - 2025-06-04
+
+### Added
+
+-   Added `roundToDecimals(value, decimals)` function to round numbers to a specified number of decimal places.
