@@ -1,0 +1,30 @@
+{
+    "name": "afridho-utils",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        },
+        "./currency": {
+            "import": "./dist/currency.mjs",
+            "require": "./dist/currency.js"
+        },
+        "./number": {
+            "import": "./dist/number.mjs",
+            "require": "./dist/number.js"
+        }
+    },
+    "scripts": {
+        "build": "tsup src/** --format cjs,esm --dts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "tsup": "^8.5.0",
+        "typescript": "^5.8.3"
+    },
+    "license": "ISC"
+}
