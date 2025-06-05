@@ -65,4 +65,8 @@ fix: correct typo in toIdr function
 ```
 
 4. Run release:
-   `npm run release`
+
+```bash
+npm run release
+npm run publish
+```
